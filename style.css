@@ -17,7 +17,7 @@ body {
 }
 
 button, .main-header, .logo {
-    color: #f9faf8;
+    color: #f9faf8;  
 }
 
 .main-header, .infoheader {
@@ -42,6 +42,10 @@ button, .call {
 
 .infoheader, .quote-text {
     font-size: 36px;
+    color: #1f2937;
+}
+
+.figures {
     color: #1f2937;
 }
 
@@ -95,21 +99,31 @@ h1, h2 {
 
 .main {
     padding: 100px 100px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    gap: 10px;
 }
 
 .main-body {
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1 0;
 }
 
 img {
-    height: 350px;
+    max-width: 50%;
+    height: auto;
+    flex: 1 1 0;
+    object-fit: cover;
 }
 
 .infoheader {
     text-align: center;
+}
+
+.figures {
+    display: flex;
 }
