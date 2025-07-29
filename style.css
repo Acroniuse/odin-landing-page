@@ -120,10 +120,20 @@ img {
     object-fit: cover;
 }
 
+.info {
+    margin: 0 200px;
+}
+
 .infoheader {
+    margin: 20px 0;
     text-align: center;
 }
 
 .figures {
     display: flex;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    text-align: center;
 }
