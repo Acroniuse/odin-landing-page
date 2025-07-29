@@ -68,7 +68,7 @@ button {
 
 /* flexbox styling */
 
-h2 {
+h1, h2 {
     margin: 0;
 }
 
@@ -91,4 +91,25 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 30px 0;
+}
+
+.main {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+img {
+    height: 350px;
+}
+
+.infoheader {
+    text-align: center;
 }
