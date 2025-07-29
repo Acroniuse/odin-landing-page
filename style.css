@@ -121,7 +121,7 @@ img {
 }
 
 .info {
-    margin: 0 200px;
+    margin: 0 120px;
 }
 
 .infoheader {
@@ -131,11 +131,24 @@ img {
 
 .figures {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-figcaption {
+figure {
+    margin: 0;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
     text-align: center;
+}
+
+.imgfig {
+    border: 5px solid #3882f6;
+    max-height: 400px;
 }
 
 .quote {
