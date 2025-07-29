@@ -2,6 +2,13 @@
     font-family: Roboto, serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 .header, .main, .footer {
     background-color: #1f2937;
 }
@@ -27,6 +34,7 @@ a, .text, .footer {
 
 button, .call {
     background-color: #3882f6;
+    border-radius: 5px;
 }
 
 .infoheader, .quote-text {
@@ -42,3 +50,15 @@ button, .call {
     font-style: italic;
     font-weight: lighter;
 }
+
+button {
+    padding: 5px 20px;
+}
+
+.button1 {
+    border: 0;
+}
+
+.button2 {
+    border: 2px solid #f9faf8;
+    }
