@@ -1,3 +1,44 @@
 * {
     font-family: Roboto, serif;
 }
+
+.header, .main, .footer {
+    background-color: #1f2937;
+}
+
+button, .main-header, .logo {
+    color: #f9faf8;
+}
+
+.main-header, .infoheader {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a, .text, .footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+button, .call {
+    background-color: #3882f6;
+}
+
+.infoheader, .quote-text {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+}
