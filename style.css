@@ -79,7 +79,7 @@ h1, h2 {
 .header {
     display: flex;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 120px;
 }
 
 .header-links {
@@ -98,7 +98,7 @@ h1, h2 {
 }
 
 .main {
-    padding: 100px 100px;
+    padding: 100px 120px;
     height: 300px;
     display: flex;
     justify-content: space-between;
@@ -136,4 +136,14 @@ img {
 
 figcaption {
     text-align: center;
+}
+
+.quote {
+    margin: 40px 0;
+    padding: 70px 120px;
+    text-align: center;
+}
+
+.author {
+    text-align: end;
 }
