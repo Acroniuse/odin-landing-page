@@ -31,7 +31,7 @@ a, .text, .footer {
     text-decoration: none;
 }
 
-.logo {
+.logo, .author {
     font-size: 24px;
 }
 
@@ -45,7 +45,7 @@ button, .call {
     color: #1f2937;
 }
 
-.figures {
+.figures, figure figcaption a {
     color: #1f2937;
 }
 
@@ -126,7 +126,6 @@ img {
 
 .infoheader {
     margin: 20px 0;
-    text-align: center;
 }
 
 .figures {
@@ -142,7 +141,7 @@ figure {
     align-items: center;
 }
 
-figcaption{
+figcaption, .quote, .infoheader {
     text-align: center;
 }
 
@@ -153,12 +152,12 @@ figcaption{
 
 .quote {
     margin-top: 40px;
-    padding: 70px 120px;
-    text-align: center;
+    padding: 70px 22%;
 }
 
 .author {
     text-align: end;
+    font-weight: bold;
 }
 
 .call {
